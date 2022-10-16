@@ -174,7 +174,7 @@ function Glogin(){
       user &&
       <div>
        
-        <img src={user.picture} alt="user"></img>
+        <img src={user.picture} alt="user" ></img>
         <h3>{user.name}</h3>
       </div>
      }
