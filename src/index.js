@@ -7,7 +7,6 @@ import { render } from '@testing-library/react';
 import SignUp from './components/SignUp';
 import Linking from './components/Linking';
 import Dashboard from './components/Dashboard'
-import Quiz from './components/Quiz'
 const rootElement = document.getElementById("root");
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -26,7 +25,6 @@ const rootElement = document.getElementById("root");
       <Route path='SignUp' element={<SignUp/>}/>
       <Route path='Linking' element={<Linking/>}/>
       <Route path='Dashboard' element={<Dashboard/>}/>
-      <Route path='Quiz' element={<Quiz/>}/>
       <Route path='/' element={<App />}/>
     </Routes>
 
