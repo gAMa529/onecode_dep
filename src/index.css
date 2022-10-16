@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding : 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca';
+}
+
+
+#new_sign{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+#new_sign_link{
+  color: black;
+}
+
+#p_rec{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#GLogin{
+margin-left: 12rem;  
+}
+
+
+
+.alternate{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+
+#heading{
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+ .OR{
+  
+
+  font-family: 'Lexend Deca';
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+
+#login_button{
+  font-size: 16px;
+  color: white;
+  /* box-sizing: border-box; */
+  
+  width: 27rem;
+  height: 4.5rem;
+/* left: 194px; */
+border-radius: 5px;
+border: 1.5px solid #000000;
+background: #2E2D2D;
+cursor: pointer;  
+font-family: 'Lexend Deca', sans-serif;
+box-shadow: inset 0 0 0 0 white;
+transition: ease-out 0.3s;
+outline: none;
+}
+#login_button:hover, #sign_butt:hover{
+  color: #000000;
+  font-weight: bold;
+  box-shadow: inset 400px 0 0 0 white;
+
+}
+
+#password{
+  padding-left: 10px;
+/* box-sizing: border-box; */
+/* position: absolute; */
+width: 27rem;
+height: 4.5rem;
+font-size: 1rem;
+
+/* left: 194px; */
+
+background: #FFFFFF;
+border: 1.5px solid #000000;
+border-radius: 5px;
+}
+
+#email{
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  padding-left: 10px;
+ /* box-sizing: border-box; */
+ /* position: absolute; */
+ width: 27rem;
+ height: 4.5rem;
+ font-size: 1rem;
+ /* left: 194px; */
+ /* top: calc(50% - 56px/2 - 256px); */
+ background: white;
+ border: 1.5px solid #000000;
+ border-radius: 5px;
+ font-family: 'Lexend Deca', sans-serif;
+} 
+
+#logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#heading, #email, #password,#GLogin, #login_button,#new_sign,#p_rec,.alternate, .OR{
+  margin-bottom: 3rem;
+  
+}
+form{
+  /* left: 0px; */
+  /* margin-right: 15%; */
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* align-items:center; */
+  /* justify-content:center; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+}
+/* div.form-inner{
+  /* dont know why i did this comment */
+  /* box-sizing: border-box; 
+} */
+
+.App{
+  display: flex;
+}
+
+[class*="w-50 bg-success"]
+{
+  min-width: 50%;
+}
+ 
+
+#p1{
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  height:100px;
+  justify-content: right;
+  background-color: #2B2B2C;
+}
+
+#p2{
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height:100px;
+  justify-content: left;
+  background-color: #FC6565;
+}
+
+.book_button{
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+/* signup css */
+
+
+.Flip{
+  width: 50%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+#back_link{
+  position: absolute;
+  left: 37%;
+  top: 3.5rem;
+  width: 15rem;
+  height: 4rem;
+  border: 1.5px solid#FFFFFF;
+
+  background-color: #1C00FF;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  
+  color: white;
+
+}
+#sign {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  
+  justify-items: center;
+  
+}
+#inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#heading_sign{
+  margin-bottom: 4rem;
+  font-family: 'Lexend Deca';
+font-weight: bold;
+font-size: 18px;
+color: #000000;
+/* position:absolute; */
+
+}
+.text-centre{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#uname, #org, #email_sign, #pno{
+  font-family: 'Lexend Deca';
+  margin-bottom: 4rem;
+padding: 18px 19px;
+width: 27rem;
+height: 4.5rem;
+background: #FFFFFF;
+border: 1.5px solid #000000;
+border-radius: 5px;
+/* margin-top: -100px;
+margin-bottom: 30px; */
+font-weight: bold;
+font-size: 16px;
+
+}
+
+#sign_butt{
+  font-family: 'Lexend Deca';
+font-size: 16px;
+font-weight: 600;
+
+width: 27rem;
+height: 4.5rem;
+color: #FFFFFF;
+
+background: #2E2D2D;
+border: 1.5px solid #000000;
+border-radius: 5px;
+box-shadow: inset 0 0 0 0 white;
+transition: ease-out 0.3s;
+cursor: pointer;
+}
+
+
+/* linking page css */
+
+li{
+  display: inline;
+}
+
+#skip_button{
+  margin-top: 2%;
+  margin-right: 2%;
+float: right;
+  color: white;
+  background: #1C00FF;
+  font-family: 'Lexend Deca';
+  font-weight: 500;
+  font-size: 1.25rem;
+  width: 150px;
+  height: 41px;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 20px;
+}
+
+
+.gfg,  .Leet, .hackerrank, .hackerearth{
+  box-sizing: border-box;
+  size: inherit;
+  font-family: 'Lexend Deca';
+  width: 90%;
+  margin-block-end: 3%;
+  height: 6rem;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.2);
+  padding-left: 7rem;
+  padding-right: 9rem;
+  border-radius: 5px;
+  border: 1.5px solid black;
+  
+}
+
+.con1, .con2, .con3, .con4{
+  display: flex;
+  justify-content: center;
+}
+
+#gfg_logo, #leet_logo, #hackerearth_logo, #hackerrank_logo{
+  position: absolute;
+  left: 6%;
+  margin-top: 2px;
+  border-top-width: 12px;
+  border-top-style:solid;
+  border-top-color: white;
+  
+}
+
+.line_img{
+  position: absolute;
+  left: 9%;
+  padding-top: 1.5rem;
+}
+
+.paste{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  margin-block-start: 0.9rem;
+  right: 6%;
+  height: 4rem;
+  background-color: transparent;
+  border-radius: 5px; 
+  border: 1px solid;
+  width: 7rem;
+  font-size: 1rem;
+  font-family: 'Lexend Deca';
+  cursor: pointer;
+  z-index: 9999999999;
+}
+#cent{
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-family: 'Lexend Deca';
+  font-weight: 600;
+}
+
+
+#save_pref{
+  width: 186px;
+  height: 54px;
+  border-radius: 5px;
+  color: white;
+  background: #1C00FF;
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  left: 5%;
+  }
+
+
+/* dashboard css */
+#dashboard{
+  background-color: #1C00FF;
+  margin-top: 3rem;
+  height: 8rem;
+}
+
+#dash_logo{
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 7rem;
+}
+
+.d_link{
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 4rem;
+  font-family: 'Lexend Deca';
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#dash_nav{
+  margin-right: 10rem;
+  margin-top: 2.6rem;
+  float: right;
+}
+
+#profile{
+  position: absolute;
+  right: 5%;
+  margin-top: 2rem;
+  
+}
+
+.problem_heading{
+  font-size: 1.3rem;
+  text-decoration: underline;
+  display: flex;
+  font-weight: bolder;
+}
+th{
+  text-align: left;
+}
+
+table{
+  border: 1px solid;
+  /* max-width: 40%; */
+}
+
+#first_row, #second_row{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#trending{
+  padding: 1.5rem;
+    width: 89.5%;
+    height: 15rem;
+    border: 0.25px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 2rem;
+    padding-top: 1%;
+    margin-top: 3rem;
+    margin-left: 7rem;
+   
+}
+
+.tren_row{
+  border-bottom: none;
+}
+
+
+
+
+
+#noti, #Mood{
+  padding: 1.5rem;
+    border: 00.25px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 2rem;
+    padding-top: 1%;
+}
+#Mood, #noti, #trending, #upcoming{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: 0.25px solid rgba(128, 128, 128, 0.841);
+  
+}
+
+#Mood{
+  margin-left: 7rem;
+  height: 15rem;
+  width: 70rem;
+}
+
+#noti{
+  margin-left: 2rem;
+  width: 62rem;
+  height: 18.2rem;
+  padding: 1.5rem;
+  /* margin-left: 47.5rem; */
+  
+}
+
+#noti_con{
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#counter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #A93434;
+  color: white;
+  border: 1px solid white;
+}
+
+#upcoming{
+  padding: 2rem;
+  height: 15rem;
+  margin-left: 2rem;
+  width: 72rem;
+}
+
+#r1, #r2{
+  max-width: 94%;
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.b_button{
+  border-radius: 25px;
+  background-color: #1C00FF;
+  border: #1C00FF;
+  color: white;
+  width: 4rem;
+  height: 1.5rem;
+}
+#yellow{
+  color:#BF8F03
+}
+#green{
+  color:#0AE260;
+}
+#red{
+  color:#E20A0A;
+}
+
+#mood_b1, #mood_b2, #mood_b3{
+  margin-left: 10rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  color: white;
+  height: 3rem;
+  width: 8rem;
+}
+
+#mood_b1{
+  border: 0.25px solid #000000;
+  background-color: #0AE260;
+  border-color: #0AE260;
+}
+
+#mood_b2{
+  border: 0.25px solid #000000;
+  background-color:#BF8F03;
+  border-color: #BF8F03;
+}
+#mood_b3{
+  
+  border: 0.25px solid #000000;
+  background-color:#E20A0A;
+  border-color:#E20A0A;
+}
+
+td{
+  border-bottom: 0.25px solid rgba(0, 0, 0, 0.2);
+  border-collapse: collapse;
+}
+#first_box{
+  
+  width: 80rem;
+  font-size: large;
+  padding: 1.5rem;
+  height:18rem;
+  margin-left: 7rem;
+  border: 0.5px solid rgba(128, 128, 128, 0.841);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* quiz css */
+
+header{
+  display: flex;
+  align-items: center;
+}
+
+.aside{
+  display: flex;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+#body{
+  display: flex;
+  border-radius: 43px;
+  background: white;
+
+}
+
+#Q_type, #Q_name, #Q_timer, #Q_des, #Q_cat{
+  background-color: #3A3A3A;
+  border: 3px solid #3A3A3A;
+  border-radius: 5px;
+  color: white;
+}
+
+
+@media (max-width: 960px){
+  #trending{width: 85%;}
+  #mood_b1, #mood_b2, #mood_b3{
+    margin-left: 1rem;
+  }
+  #noti{
+    width: 28rem;
+  }
+  #back_link{
+    left: 26%;
+  }
+}
