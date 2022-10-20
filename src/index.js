@@ -1,4 +1,5 @@
 import React from 'react';
+import  ReactDOM  from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -8,9 +9,9 @@ import SignUp from './components/SignUp';
 import Linking from './components/Linking';
 import Dashboard from './components/Dashboard'
 const rootElement = document.getElementById("root");
-// const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
-  render(
+  root.render(
   // <BrowserRouter>
   // <Routes>
   //   <Route path="/" element={<App />}/>
