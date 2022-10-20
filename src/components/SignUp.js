@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
-import CardFlip from "./CardFlip"
+// import CardFlip from "./CardFlip"
 
 
 function SignUp() {
@@ -68,7 +68,7 @@ function SignUp() {
      </div>
          </form>
          <div className = "Flip">
-       <CardFlip/>
+       {/* <CardFlip/> */}
      </div>
      
      </div>

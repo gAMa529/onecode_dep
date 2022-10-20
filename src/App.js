@@ -77,7 +77,7 @@ function App() {
        <LoginF login = {login} error = {error}/>
      )}
       <div className = "w-50 bg-success">
-       <CardFlip/>
+       {/* <CardFlip/> */}
      </div>
      
      {/* <div id = "signInDiv"></div>
