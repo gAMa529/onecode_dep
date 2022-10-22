@@ -25,7 +25,7 @@ function SignUp() {
         <div className="Signup">
        <img src="onecode.png" alt="one code logo" />
       
-      <button id="back_link" onClick={() => navigate(-1)}> <img src="Vector.png" alt="back"/>  Back to login</button>
+      <button id="back_link" onClick={() => navigate(-1)}> <img className="arrow" src="Vector.png" alt="back"/>  Back to login</button>
          <form id="sign">
          
       <p id="heading_sign">Sign Up now for free</p>
