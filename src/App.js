@@ -1,6 +1,8 @@
 import React , {useState} from "react";
 import LoginF from './components/LoginF'
 // import CardFlip from "./components/CardFlip"
+import FlippableCard from './components/flippable-card';
+
 
 
 function App() {
@@ -76,9 +78,9 @@ function App() {
      ):(
        <LoginF login = {login} error = {error}/>
      )}
-      <div className = "w-50 bg-success">
-       {/* <CardFlip/> */}
-     </div>
+     <div className="Flip">
+      <FlippableCard/>
+      </div>
      
      {/* <div id = "signInDiv"></div>
     {

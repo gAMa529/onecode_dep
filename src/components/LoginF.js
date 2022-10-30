@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import jwt_decode from "jwt-decode";
 import { Link } from "react-router-dom"
 
+
 function LoginF({ login, error }) {
   const [details, setDetail] = useState({
     name: "",
@@ -50,71 +51,7 @@ function LoginF({ login, error }) {
               setDetail({ ...details, password: e.target.value })
             }
             // value={details.password}
-            placeholder="password
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            "
+            placeholder="password"
           />
         </div>
         <input id="login_button" type="submit" value="Login" />

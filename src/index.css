@@ -75,6 +75,21 @@ outline: none;
   box-shadow: inset 400px 0 0 0 white;
 
 }
+.App{
+  display: flex;
+
+}
+
+.Flip{
+  /* === Sizing === */
+  width: 50%;
+  height: 100vh;
+
+  /* === Content Alignment === */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
 
 #password{
   padding-left: 10px;
@@ -127,6 +142,7 @@ form{
   /* align-items:center; */
   /* justify-content:center; */
   width: 50%;
+
   display: flex;
   justify-content: center;
   text-align: center;
@@ -181,13 +197,12 @@ form{
 
 /* signup css */
 
-
-.Flip{
-  width: 50%;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+.Signup{
+  display: flex;
+  
 }
+
+
 #back_link{
   position: absolute;
   left: 37%;
@@ -231,6 +246,7 @@ color: #000000;
   display: flex;
   flex-direction: column;
   margin-top: 15rem;
+  max-width: 50%;
 
 }
 

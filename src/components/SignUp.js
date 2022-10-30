@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 // import CardFlip from "./CardFlip"
+import FlippableCard from './flippable-card';
 
 
 function SignUp() {
@@ -16,14 +17,11 @@ function SignUp() {
     const navigate = useNavigate();
 
     return (
-        // <form className="t-centre" onSubmit={submitHandler}>
-        //     <div className="inner_c">
-        //         <label htmlFor="username"></label>
-              
-        //     </div>
-        // </form>
+
+        <div className="S_master">
+      <img id="logo" src="onecode.png" alt="one code logo" />
+
         <div className="Signup">
-       <img src="onecode.png" alt="one code logo" />
       
       <button id="back_link" onClick={() => navigate(-1)}> <img className="arrow" src="Vector.png" alt="back"/>  Back to login</button>
          <form id="sign">
@@ -68,9 +66,10 @@ function SignUp() {
      </div>
          </form>
          <div className = "Flip">
-       {/* <CardFlip/> */}
+         <FlippableCard/>
      </div>
      
+     </div>
      </div>
     )
 } 
