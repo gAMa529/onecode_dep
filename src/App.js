@@ -1,8 +1,9 @@
 import React , {useState} from "react";
 import LoginF from './components/LoginF'
 // import CardFlip from "./components/CardFlip"
-import FlippableCard from './components/flippable-card';
+import { GoogleOAuthProvider } from '@react-oauth/google';
 
+ 
 
 
 function App() {

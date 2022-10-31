@@ -37,10 +37,10 @@
   }
   
   .card-front {
-    background-color: #FC6565;
+    background-color: black;
   }
   
   .card-back {
-    background-color: #87D856;
+    background-color:  #FC6565;
     transform: rotateY(180deg);
   }

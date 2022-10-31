@@ -50,7 +50,6 @@ function LoginF({ login, error }) {
             onChange={(e) =>
               setDetail({ ...details, password: e.target.value })
             }
-            // value={details.password}
             placeholder="password"
           />
         </div>
