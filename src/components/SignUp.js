@@ -12,6 +12,7 @@ function SignUp() {
         org: "Enter organisation",
         email: "Enter email",
         contact: "Enter contact number",
+        password: ""
     });
   
     const navigate = useNavigate();
@@ -53,6 +54,13 @@ function SignUp() {
       onClick={()=>setDetails({...details, email:""})}
       onChange={(e) => setDetails({...details, email: e.target.value})}/>
 
+<input type="password" 
+      name="org" 
+      id="password"
+
+    placeholder="Create a Password"
+      onChange={(e) => setDetails({...details, password: e.target.value})}/>
+      
       <input 
       type='text' 
       name="contact" 

@@ -250,7 +250,7 @@ color: #000000;
 
 }
 
-#uname, #org, #email_sign, #pno{
+#uname, #org, #email_sign, #pno, #password{
   font-family: 'Lexend Deca';
   margin-bottom: 3rem;
 padding: 18px 19px;
